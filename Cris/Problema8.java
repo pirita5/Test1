@@ -7,7 +7,7 @@ obtiene cambiando sus filas por columnas (o viceversa). */
         int[][] matrizT = new int[4][4]; 
         System.out.println("Matriz original");
         rellenarMatriz(matriz); 
-        
+        System.out.println("Test2");
         mostrarMatriz(matriz);
         matrizT =invertirMatriz(matriz); 
         System.out.println("");
